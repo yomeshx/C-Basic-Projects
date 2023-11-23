@@ -1,5 +1,5 @@
 /*
-Today I wrote my first C program hello world .
+Today(19th nov 2023) I wrote my first C program hello world .
 and learnt about comments,Escape sequence and Variables. 
 furthermore learned little bit about datatypes in C and Format specifiers. 
 but will hope to explore more about those two topics in the near future 
