@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 //we need to spcify the expected input format in double quotes and then a comma and variable name with '&' character infront
+// & - address
 //ex: scanf("%d", &age);
 
 
