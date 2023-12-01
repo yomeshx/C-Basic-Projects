@@ -13,6 +13,10 @@ int main(){
 
     bool e = true;          // 1 byte ((1)true or (0)false) %d      //by default it's 1 and 0 but you can change it to display true or false if you want
     // you need #include <stdbool.h> to use bool in C
+    // when checking bool value in an if statement , all the following if statements are ways to check 'true'
+        //if (e ==true){}
+        //if (e == 1){}
+        //if (e){}
 
     char f = 100;           // 1 byte (-128 to +127) %d or %c
     //you can store integer from -128 to 127 or use it to represent ASCII character

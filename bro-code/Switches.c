@@ -14,7 +14,7 @@ int main(){
         case 'A':
             printf("You done really well !");
             break;  // reason we use break at the end of an each case is to break out of the swith
-                    //if you don't add break at the end,it will exicute blocks of code belongs to othere cases too 
+                    //if you don't add break at the end,it will exicute blocks of code belongs to othere cases bellow this case. 
                     // (it will print case A print statement but not only that, all these other print statements belongs to Case B,C,D,F too.) 
         case 'B':
             printf("You done ok !");
