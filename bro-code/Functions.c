@@ -1,15 +1,21 @@
-// Block of code that most likely get used more than onece can be stored in a funtion so don't have to copy and paste,and it makes your code look more cleaner 
-// that block of code get executed whenever you call/invoke it.
+/*Functions are usefull when you have block of code that used repeatedly few times in your code.
+ you can put that code into a function and Invoke(call) it anytime you want.that avoid the re-writing the whole thing over and over again.
+ also functions help you keep your code clean and readable.
+*/
+
+
 #include <stdio.h>
 
-void greeting()
+void greeting() //  greetings Function
 {
-    printf("Ayubowan!\n");
-    printf("Ayubowan!\n");
+
+	printf("\nWelcome to Sri Lanka!\n");
 }
 
 int main()
 {
-    greeting();
-return 0;
+	greeting(); // Invoking (calling) the function 
+	greeting();
+	greeting();
+	return 0;
 }
