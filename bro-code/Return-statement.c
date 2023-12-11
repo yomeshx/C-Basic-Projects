@@ -1,6 +1,6 @@
 // Return statement in a funtion returns the end result of the funtion
 // you need to specify the data type of the return value when declairing a function. 
-// it comes before  the funtion name
+// data type comes before  the funtion name
 #include <stdio.h>
 
 double square(double value) // squar function is a double, parameter this function takes is also double.

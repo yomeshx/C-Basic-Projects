@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
 
     int age;
     printf("Enter your age : ");
@@ -18,3 +19,8 @@ int main(){
 
     return 0;
 }
+    // if ther's only one line under the if statement, then you don't necessaraly need '{}'
+    // example:
+    // if (age>18)
+    //     printf("You are an adult now.");
+
