@@ -2,15 +2,17 @@
 
 int main()
 {
-	for (int x = 1; x <=10 ; x++)
+	double array [] = {12.5,34.55,17.4,999.6,45.3};
+
+//	printf("\n%d",sizeof(array));
+
+//	printf("\n%.2lf",array[2]);
+	
+	for (int x=0; x< sizeof(array)/sizeof(array[1]); x++)
 	{
-		if (x == 6)
-		{
-			printf("\noh six is not valid");
-			continue;
-		}
-		printf("\n%d",x);
-		
+		printf("\n%.2lf",array[x]);
 	}
+
+
 	return 0;
 }
